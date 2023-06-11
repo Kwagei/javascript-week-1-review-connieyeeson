@@ -74,7 +74,42 @@ for( let i = 0; i < names.length; i++){
 
             
           
+          
         //  6. create a person object and create a method on the 
        //  person object to update the name on the person object
 
-        
+       let persons = {
+        name: 'Lulu',
+        age: 32,
+        favFood: 'fufu',
+
+      updateName: function(newName){
+
+        this.name = newName;
+        }
+        };
+        persons.updateName('Leelos')
+         console.log(persons.name);
+
+        //  Create an array of objects representing books. Each book should have properties for title and author. 
+        //  Write a function that takes the array of books and returns an array of book titles.
+     
+          let books = [
+            { title: " Lonely Days", author: " Bayo Adebowale" },
+            { title: " Thing Fall Apart", author: " Chinua Achebe" },
+            { title: "Ada", author: "Connie Porter" }
+          ];
+
+            function bookTitles(books){
+
+                let bookTitles = [];
+                for ( let i = 0; i < books.length; i++){
+
+                    bookTitles[i] = book[i].Titles;
+
+                }
+                    return bookTitles;
+            }
+
+                    bookTitles(books);
+                    
