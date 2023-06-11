@@ -1,8 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/pCXAkczB)
 # Instructions
 1. Write a function that takes an array of numbers and returns the sum of the array.
-2. Write a function that takes an array of strings and returns the longest string in the array.
-3. Write a function that takes an array of numbers and returns an array of the even numbers in the array.
+                                                                                                                               Write a function that takes an array of numbers and returns an array of the even numbers in the array.
 4. Write a function that takes an array of numbers and returns an array of the numbers in reverse order.
 5. A word is given write a punction to tell if the word is a Palindrome.
 6. create a person object and create a method on the person object to update the name on the person object
